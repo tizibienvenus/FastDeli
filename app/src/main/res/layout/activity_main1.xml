@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginStart="22dp"
+    android:layout_marginEnd="22dp"
+    android:layout_marginBottom="50dp"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Open Activity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <!--
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:layout_marginTop="20dp"
+        />
+    -->
+    <Button
+        android:id="@+id/openBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"/>
+    <TextView
+        android:paddingTop="110dp"
+        android:paddingBottom="20dp"
+        android:text="Open Sign In Activity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <Button
+    android:id="@+id/signInBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Go to Sign In"/>
+
+    <Button
+        android:id="@+id/calling"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Appeler Mounir"/>
+
+</LinearLayout>
